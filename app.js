@@ -1,9 +1,9 @@
 const $ = (id) => document.getElementById(id);
 const params = new URLSearchParams(window.location.search);
 const slug = params.get("r") || "ruang-rasa";
-const restaurant = TAPDINE_CONFIG.restaurants[slug] || TAPDINE_CONFIG.restaurants["ruang-rasa"];
+const restaurant = TAPIN_CONFIG.restaurants[slug] || TAPIN_CONFIG.restaurants["ruang-rasa"];
 
-document.title = `${restaurant.name} — TAPDINE`;
+document.title = `${restaurant.name} — TAPIN`;
 $("restaurant-name").textContent = restaurant.name;
 $("restaurant-category").textContent = restaurant.category || "WELCOME TO";
 $("restaurant-tagline").textContent = restaurant.tagline || "";

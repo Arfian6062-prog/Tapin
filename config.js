@@ -1,7 +1,7 @@
 // Semua data restoran dapat diubah dari file ini.
 // Pilih restoran melalui URL: ?r=ruang-rasa atau ?r=demo-kopi
-const TAPDINE_CONFIG = {
-  provider: "TAPDINE",
+const TAPIN_CONFIG = {
+  provider: "TAPIN",
   restaurants: {
     "ruang-rasa": {
       name: "Ruang Rasa",
